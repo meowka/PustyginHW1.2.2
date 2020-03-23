@@ -2,5 +2,5 @@
     <string name="app_name">Просмотр фото</string>
     <string name="prev">Назад</string>
     <string name="next">Вперед</string>
-    <string name="URL">http://myfile.org/</string>
+    <string name="mImgUrlTxtView">http://myfile.org/</string>
 </resources>

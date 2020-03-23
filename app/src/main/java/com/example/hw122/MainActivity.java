@@ -22,8 +22,8 @@ public class MainActivity extends AppCompatActivity {
         final int i = random.nextInt(101);
         Button btnPrev = (Button) findViewById(R.id.btnPrev);
         Button btnNext = (Button) findViewById(R.id.btnNext);
-        final TextView URL = (TextView) findViewById(R.id.URL);
-        URL.setText("http://myfile.org/" + i);
+        final TextView mImgUrlTxtView = (TextView) findViewById(R.id.mImgUrlTxtView);
+        mImgUrlTxtView.setText(getString(R.string.mImgUrlTxtView) + i);
         btnNext.setOnClickListener(new View.OnClickListener() {
             @SuppressLint("SetTextI18n")
             @Override
